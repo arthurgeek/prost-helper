@@ -15,7 +15,7 @@ categories = ["development-tools::build-utils"]
 keywords = ["protobuf", "prost", "serde", "derive"]
 
 [dependencies]
-prost-build = { version = "0.12.3", features = ["prettyplease"] }
+prost-build = "0.13.3"
 serde = { version = "1.0.193", features = ["derive"] }
 
 [dev-dependencies]
