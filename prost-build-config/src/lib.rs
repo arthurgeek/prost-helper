@@ -84,7 +84,7 @@ pub struct BuildOption {
 
 pub struct Builder {
     /// prost configuration
-    config: Config,
+    pub config: Config,
     /// protobuf include dirs
     pub includes: Vec<String>,
     /// protobuf files
